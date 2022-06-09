@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Product Cart</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220609211654">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><img src="img/header/logo.svg" alt="green shop logo"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="page-home.html" class="menu__link">Home</a></li>
+							<li class="menu__item active-link"><a href="page-product-view.html" class="menu__link">Shop</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Plant Care</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Blogs</a></li>
+						</ul>
+						<div id="border"></div>
+					</nav>
+
+				</div>
+				<div class="header__actions actions-header">
+					<div data-da=".menu__body, 374.98, first" class="actions-header__search search-header">
+						<form class="search-header__form">
+							<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="" class="search-header__input input">
+							<button type="submit" class="search-header__button _icon-search"></button>
+						</form>
+					</div>
+					<a href="page-product-cart.html" class="actions-header__cart _icon-cart"><span>6</span></a>
+					<button data-popup="#login" data-da=".menu__body, 500" type="button" class="actions-header__login login-button _icon-header-login">Login</button>
+
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<nav class="page__bredcrump bredcrump">
+					<ul class="bredcrump__body">
+						<li class="bredcrump__item">
+							<a href="page-home.html" class="bredcrump__link">Home</a>
+							<a href="page-product-view.html" class="bredcrump__link">Shop</a>
+							<a href="page-product-cart.html" class="bredcrump__link">Shopping Cart</a>
+						</li>
+					</ul>
+				</nav>
+				<section class="page__product-cart product-cart">
+					<div class="product-cart__products products">
+						<div class="products__header header-product">
+							<h3 class="header-product__title_main product-cart-common-title">Products</h3>
+							<h3 class="header-product__title product-cart-common-title">Price</h3>
+							<h3 class="header-product__title product-cart-common-title">Quantity</h3>
+							<h3 class="header-product__title product-cart-common-title">Total</h3>
+						</div>
+						<div class="products__items">
+							<div class="products__item item-product">
+								<div class="item-product__main-data">
+									<div class="item-product__image-ibg"><picture><source srcset="img/product-cards/product-card-image-01.webp" type="image/webp"><img src="img/product-cards/product-card-image-01.png" alt="Barberton Daisy"></picture></div>
+									<div class="item-product__info">
+										<h4 class="item-product__title product-cart-common-title">Barberton Daisy</h4>
+										<div class="item-product__serial"><span>SKU:</span> 1995751877966</div>
+									</div>
+								</div>
+								<div class="item-product__product-price">
+									<h3 class="item-product__subtitle product-cart-common-title">Price:</h3>
+									<span class="item-product__currency">$</span>
+									<span class="item-product__price-value">119</span>
+								</div>
+								<div class="item-product__product-quanitiy">
+									<h3 class="item-product__subtitle product-cart-common-title">Quantity:</h3>
+									<div class="quantity">
+										<button type="button" class="quantity__button quantity__button_minus"></button>
+										<div class="quantity__input"><input autocomplete="off" type="text" name="form[productQuantity]" value="2"></div>
+										<button type="button" class="quantity__button quantity__button_plus">+</button>
+									</div>
+								</div>
+								<div class="item-product__total-price-cart">
+									<h3 class="item-product__subtitle product-cart-common-title">Total:</h3>
+									<div class="item-product__total-price">
+										<span class="item-product__price-currency">$</span>
+										<span class="item-product__total-price-value">238</span>
+									</div>
+									<button type="button" class="item-product__cart-button _icon-basket"></button>
+								</div>
+							</div>
+							<div class="products__item item-product">
+								<div class="item-product__main-data">
+									<div class="item-product__image-ibg"><picture><source srcset="img/product-cards/product-card-image-05.webp" type="image/webp"><img src="img/product-cards/product-card-image-05.png" alt="Barberton Daisy"></picture></div>
+									<div class="item-product__info">
+										<h4 class="item-product__title product-cart-common-title">Blushing Bromeliad</h4>
+										<div class="item-product__serial"><span>SKU:</span> 19957518757065</div>
+									</div>
+								</div>
+								<div class="item-product__product-price">
+									<h3 class="item-product__subtitle product-cart-common-title">Price:</h3>
+									<span class="item-product__currency">$</span>
+									<span class="item-product__price-value">139</span>
+								</div>
+								<div class="item-product__product-quanitiy">
+									<h3 class="item-product__subtitle product-cart-common-title">Quantity:</h3>
+									<div class="quantity">
+										<button type="button" class="quantity__button quantity__button_minus"></button>
+										<div class="quantity__input"><input autocomplete="off" type="text" name="form[productQuantity]" value="6"></div>
+										<button type="button" class="quantity__button quantity__button_plus">+</button>
+									</div>
+								</div>
+								<div class="item-product__total-price-cart">
+									<h3 class="item-product__subtitle product-cart-common-title">Total:</h3>
+									<div class="item-product__total-price">
+										<span class="item-product__price-currency">$</span>
+										<span class="item-product__total-price-value">834</span>
+									</div>
+									<button type="button" class="item-product__cart-button _icon-basket"></button>
+								</div>
+							</div>
+							<div class="products__item item-product">
+								<div class="item-product__main-data">
+									<div class="item-product__image-ibg"><picture><source srcset="img/product-cards/product-card-image-06.webp" type="image/webp"><img src="img/product-cards/product-card-image-06.png" alt="Barberton Daisy"></picture></div>
+									<div class="item-product__info">
+										<h4 class="item-product__title product-cart-common-title">Aluminum Plant</h4>
+										<div class="item-product__serial"><span>SKU:</span> 1995751877786</div>
+									</div>
+								</div>
+								<div class="item-product__product-price">
+									<h3 class="item-product__subtitle product-cart-common-title">Price:</h3>
+									<span class="item-product__currency">$</span>
+									<span class="item-product__price-value">179</span>
+								</div>
+								<div class="item-product__product-quanitiy">
+									<h3 class="item-product__subtitle product-cart-common-title">Quantity:</h3>
+									<div class="quantity">
+										<button type="button" class="quantity__button quantity__button_minus"></button>
+										<div class="quantity__input"><input autocomplete="off" type="text" name="form[productQuantity]" value="9"></div>
+										<button type="button" class="quantity__button quantity__button_plus">+</button>
+									</div>
+								</div>
+								<div class="item-product__total-price-cart">
+									<h3 class="item-product__subtitle product-cart-common-title">Total:</h3>
+									<div class="item-product__total-price">
+										<span class="item-product__price-currency">$</span>
+										<span class="item-product__total-price-value">1,611</span>
+									</div>
+									<button type="button" class="item-product__cart-button _icon-basket"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart__totals totals">
+						<div class="totals__header header-totals">
+							<h2 class="header-totals__title">Cart Totals</h2>
+						</div>
+						<div class="totals__body">
+							<div class="totals__coupon coupon">
+								<h3 class="coupon__title common-total-titles">Coupon Apply</h3>
+								<form data-dev class="coupon__form" action="#" method="GET">
+									<input type="text" name="form[coupon]" data-required data-error="Error - Wrong Coupon Code!" placeholder="Enter coupon code here..." class="coupon__input">
+									<button type="submit" class="coupon__button">Apply</button>
+								</form>
+							</div>
+							<div class="totals__subtotal subtotal">
+								<h3 class="subtotal__title common-total-titles">Subtotal</h3>
+								<div class="subtotal__product-price"><span class="subtotal__price-currency">$</span><span class="subtotal__price-value">2,683.00</span></div>
+							</div>
+							<div class="totals__coupon-discount coupon-discount">
+								<h3 class="coupon-discount__title common-total-titles">Coupon Discount</h3>
+								<div class="coupon-discount__discount-value"><span class="coupon-discount__minus">(-)</span><span class="coupon-discount__value">00.00</span></div>
+							</div>
+							<div class="totals__shipping shipping">
+								<h3 class="shipping__title common-total-titles">Shipping</h3>
+								<div class="shipping__product-price"><span class="shipping__price-currency">$</span><span class="shipping__price-value">16</span></div>
+							</div>
+							<a href="" class="totals__shipping-charge-link">View shipping charge</a>
+							<div class="totals__total-price total-price">
+								<h3 class="total-price__title">Total</h3>
+								<div class="total-price__product-price"><span class="total-price__price-currency">$</span><span class="total-price__price-value">2,683.00</span></div>
+							</div>
+							<a href="page-product-checkout.html" class="totals__to-checkout common-button">Proceed To Checkout</a>
+							<a href="page-home.html" class="totals__continue-shopping">Continue Shopping</a>
+						</div>
+					</div>
+				</section>
+				<section class="page__products-interested products-interested">
+					<h2 class="products-interested__title">You may be interested in</h2>
+					<!-- Оболочка слайдера -->
+					<div class="products-interested__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="products-interested__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-04.webp" type="image/webp"><img src="img/product-cards/product-card-image-04.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_55" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_55" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Beach Spider Lily</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$129.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-05.webp" type="image/webp"><img src="img/product-cards/product-card-image-05.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_56" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_56" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Blushing Bromeliad</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$139.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-06.webp" type="image/webp"><img src="img/product-cards/product-card-image-06.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_57" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_57" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Aluminum Plant</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$179.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-07.webp" type="image/webp"><img src="img/product-cards/product-card-image-07.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_58" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_58" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Bird's Nest Fern</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$99.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-09.webp" type="image/webp"><img src="img/product-cards/product-card-image-09.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_59" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_59" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Chinese Evergreen</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$79.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-08.webp" type="image/webp"><img src="img/product-cards/product-card-image-08.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_60" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_60" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Broadleaf Lady Palm</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$89.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-01.webp" type="image/webp"><img src="img/product-cards/product-card-image-01.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_61" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_61" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Barberton Daisy</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$119.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-02.webp" type="image/webp"><img src="img/product-cards/product-card-image-02.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_62" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_62" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Angel Wing Begonia</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$169.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-03.webp" type="image/webp"><img src="img/product-cards/product-card-image-03.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_63" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_63" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"><span class="product-card__discount-value">13% OFF</span></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">African Violet</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$199.00</div>
+											<div class="product-card__old-price">$229.00</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-05.webp" type="image/webp"><img src="img/product-cards/product-card-image-05.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_64" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_64" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Blushing Bromeliad</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$139.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-07.webp" type="image/webp"><img src="img/product-cards/product-card-image-07.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_65" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_65" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Bird's Nest Fern</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$99.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-08.webp" type="image/webp"><img src="img/product-cards/product-card-image-08.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_66" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_66" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Broadleaf Lady Palm</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$89.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-04.webp" type="image/webp"><img src="img/product-cards/product-card-image-04.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_67" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_67" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Beach Spider Lily</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$129.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-03.webp" type="image/webp"><img src="img/product-cards/product-card-image-03.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_68" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_68" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"><span class="product-card__discount-value">13% OFF</span></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">African Violet</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$199.00</div>
+											<div class="product-card__old-price">$229.00</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="products-interested__slide swiper-slide">
+								<div class="products-related__item product-card">
+									<div class="product-card__picture-part">
+										<div class="product-card__image-ibg"><picture><source srcset="img/product-cards/product-card-image-06.webp" type="image/webp"><img src="img/product-cards/product-card-image-06.png" alt="product image"></picture></div>
+										<div class="product-card__actions">
+											<button type="button" class="product-card__cart _icon-cart"></button>
+											<div class="product-card__favorite">
+												<div class="checkbox-heart">
+													<input id="c_69" data-error="Ошибка" class="checkbox-heart__input" type="checkbox" value="" name="form[]">
+													<label for="c_69" class="checkbox-heart__label"><span class="checkbox-heart__text"></span></label>
+												</div>
+											</div>
+											<a href="" class="product-card__search _icon-search"></a>
+										</div>
+										<div class="product-card__discount-label"></div>
+									</div>
+									<div class="product-card__data-part">
+										<a href="" class="product-card__title">Aluminum Plant</a>
+										<div class="product-card__price">
+											<div class="product-card__actual-price">$179.00</div>
+											<div class="product-card__old-price"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<div class="products-interested__swiper-pagination"></div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top top-footer">
+					<div class="top-footer__body">
+						<article class="top-footer__column">
+							<div class="top-footer__item item-top-footer">
+								<div class="item-top-footer__image"><img src="img/footer/top-footer-image-01.svg" alt="plant in pot"></div>
+								<h3 class="item-top-footer__title">Garden Care</h3>
+								<div class="item-top-footer__text">We are an online plant shop offering a wide range of cheap and trendy plants.</div>
+							</div>
+						</article>
+						<article class="top-footer__column">
+							<div class="top-footer__item item-top-footer">
+								<div class="item-top-footer__image"><img src="img/footer/top-footer-image-02.svg" alt="plant in pot"></div>
+								<h3 class="item-top-footer__title">Plant Renovation</h3>
+								<div class="item-top-footer__text">We are an online plant shop offering a wide range of cheap and trendy plants.</div>
+							</div>
+						</article>
+						<article class="top-footer__column">
+							<div class="top-footer__item item-top-footer">
+								<div class="item-top-footer__image"><img src="img/footer/top-footer-image-03.svg" alt="plant in pot"></div>
+								<h3 class="item-top-footer__title">Watering Graden</h3>
+								<div class="item-top-footer__text">We are an online plant shop offering a wide range of cheap and trendy plants.</div>
+							</div>
+						</article>
+						<article class="top-footer__column top-footer__column_last">
+							<div class="top-footer__item item-top-footer">
+								<h3 class="item-top-footer__title">Would you like to join newsletters?</h3>
+								<form data-dev class="item-top-footer__form">
+									<input autocomplete="off" type="text" data-required="email" name="form[]" data-error="Error - Please, enter correct email address!" placeholder="enter your email address..." class="item-top-footer__input">
+									<button type="submit" class="item-top-footer__button">Join</button>
+								</form>
+
+								<div class="item-top-footer__text">We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house toyours! </div>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="footer__middle middle-footer">
+					<div class="middle-footer__body">
+						<div class="middle-footer__column">
+							<a href="" class="middle-footer__logo"><img src="img/header/logo.svg" alt="GreenShop Logo"></a>
+						</div>
+						<div class="middle-footer__column">
+							<a href="" class="middle-footer__location _icon-location"><span>70 West Buckingham Ave. Farmingdale, NY 11735</span></a>
+						</div>
+						<div class="middle-footer__column">
+							<a href="mailto:contact@greenshop.com" class="middle-footer__mail _icon-mail"><span>contact@greenshop.com</span></a>
+						</div>
+						<div class="middle-footer__column">
+							<a href="tel:8801911717490" class="middle-footer__phone _icon-phone"><span>+88 01911 717 490</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__body">
+						<nav data-spollers="539.98,max" data-one-spoller class="bottom-footer__menu menu-footer">
+							<article class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title">My Account</button>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">My Account</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Our Stories</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Contact us</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Career</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Specials</a>
+									</li>
+								</ul>
+							</article>
+							<article class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title">Help & Guide</button>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Helo Center</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">How to Buy</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Shipping & Delivery</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Product Policy</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">How to Return</a>
+									</li>
+								</ul>
+							</article>
+							<article class="menu-footer__column">
+								<button type="button" data-spoller class="menu-footer__title">Categories</button>
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">House Plants</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Potter Plants</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Seeds</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Small Plants</a>
+									</li>
+									<li class="menu-footer__item">
+										<a href="" class="menu-footer__link">Accessories</a>
+									</li>
+								</ul>
+							</article>
+							<article class="menu-footer__column menu-footer__column_socials">
+								<button type="button" data-spoller class="menu-footer__title">Social Media</button>
+								<div class="menu-footer__social-links">
+									<div class="menu-footer__block-socials">
+										<a href="" class="menu-footer__social-link _icon-facebook"></a>
+										<a href="" class="menu-footer__social-link _icon-instagram"></a>
+										<a href="" class="menu-footer__social-link _icon-twitter"></a>
+										<a href="" class="menu-footer__social-link _icon-linkedin"></a>
+										<a href="" class="menu-footer__social-link _icon-union"></a>
+									</div>
+								</div>
+								<h3 class="menu-footer__title menu-footer__title_payments">We accept</h3>
+								<div class="menu-footer__payments">
+									<div class="menu-footer__block-payments">
+										<a href="" class="menu-footer__payment-link"><img src="img/footer/paypal-logo.svg" alt=""></a>
+										<a href="" class="menu-footer__payment-link"><img src="img/footer/mastercard-logo.svg" alt=""></a>
+										<a href="" class="menu-footer__payment-link"><img src="img/footer/visa-logo.svg" alt=""></a>
+										<a href="" class="menu-footer__payment-link"><img src="img/footer/american-express-logo.svg" alt=""></a>
+									</div>
+								</div>
+							</article>
+						</nav>
+					</div>
+
+				</div>
+				<div class="footer__copyright">
+					© 2021 GreenShop. All Rights Reserved.
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+
+	<div class="login-popup">
+		<div id="login" aria-hidden="true" class="login-popup__popup popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close _icon-close"></button>
+					<div class="popup__login-register login-register">
+						<div data-tabs class="login-register__tabs tabs-login-register">
+							<nav data-tabs-titles class="tabs-login-register__navigation">
+								<button type="button" class="tabs-login-register__title _tab-active">Login</button>
+								<button type="button" class="tabs-login-register__title">Register</button>
+							</nav>
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs-login-register__body">
+									<form data-dev class="tabs-login-register__form" action="#">
+										<h3 for="login-email" class="tabs-login-register__label">Enter your username and password to login.</h3>
+										<div class="tabs-login-register__line">
+											<input id="login-email" autocomplete="off" type="text" data-required="email" name="form[userEmail]" data-error="Wrong Password or Email!" placeholder="almamun_uxui@outlook.com" class="tabs-login-register__user-email input-login-register">
+											<div class="tabs-login-register__user-password-box input-login-register"><input autocomplete="off" required type="password" name="form[userPassword]" data-error="Error" placeholder="Password" class="tabs-login-register__user-password"><span class="tabs-login-register__show-login __viewpass _icon-show"></span><span class="tabs-login-register__hide-login __viewpass _icon-hide"></span></div>
+										</div>
+										<div class="tabs-login-register__forgot-pass">
+											<a href="" class="tabs-login-register__forgot-link">Forgot Password?</a>
+										</div>
+
+										<button type="submit" class="tabs-login-register__button common-button common-button_login-register">Login</button>
+									</form>
+									<div class="tabs-login-register__alternative-login-register"><span>Or login with</span></div>
+									<div class="tabs-login-register__socials-login-register socials-login-register">
+										<a href="" class="socials-login-register__google button-login-register"><span><img src="img/google-colored.svg" alt="google icon"></span> Login with Google</a>
+										<a href="" class="socials-login-register__facebook _icon-facebook button-login-register">Login with Facebook</a>
+									</div>
+								</div>
+								<div class="tabs-login-register__body">
+									<div class="tabs-login-register__body">
+										<form class="tabs-login-register__form" action="#">
+											<h3 for="register-user-name" class="tabs-login-register__label">Enter your email and password to register.</h3>
+											<div class="tabs-login-register__line tabs-login-register__line_register">
+												<input id="register-user-name" autocomplete="off" type="text" required name="form[userName]" data-error="Eroor" placeholder="Username" class="tabs-login-register__user-name input-login-register">
+												<input autocomplete="off" type="text" data-required="email" name="form[userEmail]" data-error="Wrong Password or Email" placeholder="Enter your email address" class="tabs-login-register__user-email input-login-register">
+												<div class="tabs-login-register__user-password-box input-login-register"><input autocomplete="off" required type="password" name="form[userPassword]" data-error="Error" placeholder="Password" class="tabs-login-register__user-password tabs-login-register__user-password"><span class="tabs-login-register__show-register __viewpass _icon-show"></span><span class="tabs-login-register__hide-register __viewpass _icon-hide"></span></div>
+												<input autocomplete="off" type="text" name="form[confirmPassword]" required data-error="Error" placeholder="Confirm Password" class="tabs-login-register__confirm-password input-login-register">
+											</div>
+
+											<button type="submit" class="tabs-login-register__button common-button common-button_login-register">Register</button>
+										</form>
+										<div class="tabs-login-register__alternative-login-register">Or register with</div>
+										<div class="tabs-login-register__socials-login-register socials-login-register">
+											<a href="" class="socials-login-register__google button-login-register"><span><img src="img/google-colored.svg" alt="google icon"></span> Continue with Google</a>
+											<a href="" class="socials-login-register__facebook _icon-facebook button-login-register">Continue with Facebook</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="order-popup">
+		<div id="order" aria-hidden="true" class="order-popup__popup popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header header-popup">
+						<button data-close type="button" class="popup__close _icon-close"></button>
+						<div class="header-popup__logo"><img src="img/order-popup/thank-you.svg" alt=""></div>
+						<h2 class="header-popup__title">Your order has been received</h2>
+					</div>
+					<div class="popup__order-summary-info order-summary-info">
+						<div class="order-summary-info__container">
+							<div class="order-summary-info__item">
+								<div class="order-summary-info__order-number popup-order-number">
+									<h3 class="popup-order-number__title">Order Number</h3>
+									<div class="popup-order-number__number">19586687</div>
+								</div>
+
+							</div>
+							<div class="order-summary-info__item">
+								<div class="order-summary-info__order-number popup-order-date">
+									<h3 class="popup-order-date__title">Date</h3>
+									<div class="popup-order-date__date">15 Sep, 2021</div>
+								</div>
+
+							</div>
+							<div class="order-summary-info__item">
+								<div class="order-summary-info__order-number popup-order-total-price">
+									<h3 class="popup-order-total-price__title">Total</h3>
+									<div class="popup-order-total-price__price">2,699.00</div>
+								</div>
+
+							</div>
+							<div class="order-summary-info__item">
+								<div class="order-summary-info__order-number popup-order-payment-method">
+									<h3 class="popup-order-payment-method__title">Payment Method</h3>
+									<div class="popup-order-payment-method__payment-method">Cash On Delivery</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					<div class="popup__order-checkout order-checkout">
+						<div class="order-checkout__container">
+							<h2 class="order-checkout__title checkout-common-title">Order Details</h2>
+							<div class="order-checkout__header header-order-checkout">
+								<div class="header-order-checkout__title product-cart-common-title">Products</div>
+								<div class="header-order-checkout__title header-order-checkout__title_qty product-cart-common-title">Qty</div>
+								<div class="header-order-checkout__title header-order-checkout__title_subtotal product-cart-common-title">Subtotal</div>
+
+							</div>
+							<div class="order-checkout__items">
+								<div class="order-checkout__item item-product">
+									<div class="item-product__main-data">
+										<div class="item-product__image-ibg"><picture><source srcset="img/product-cards/product-card-image-01.webp" type="image/webp"><img src="img/product-cards/product-card-image-01.png" alt="Barberton Daisy"></picture></div>
+										<div class="item-product__info">
+											<h4 class="item-product__title product-cart-common-title">Barberton Daisy</h4>
+											<div class="item-product__serial"><span>SKU:</span> 1995751877966</div>
+										</div>
+									</div>
+									<div class="item-product__product-quanitiy">
+										<div class="item-product__total-quantity">(x <span class="item-product__quantity-value">2</span>)</div>
+									</div>
+									<div class="item-product__total-price-cart">
+										<div class="item-product__total-price">
+											<span class="item-product__price-currency">$</span>
+											<span class="item-product__total-price-value">238</span>
+										</div>
+									</div>
+								</div>
+								<div class="order-checkout__item item-product">
+									<div class="item-product__main-data">
+										<div class="item-product__image-ibg"><picture><source srcset="img/product-cards/product-card-image-05.webp" type="image/webp"><img src="img/product-cards/product-card-image-05.png" alt="Barberton Daisy"></picture></div>
+										<div class="item-product__info">
+											<h4 class="item-product__title product-cart-common-title">Blushing Bromeliad</h4>
+											<div class="item-product__serial"><span>SKU:</span> 19957518757065</div>
+										</div>
+									</div>
+									<div class="item-product__product-quanitiy">
+										<div class="item-product__total-quantity">(x <span class="item-product__quantity-value">6</span>)</div>
+									</div>
+									<div class="item-product__total-price-cart">
+										<div class="item-product__total-price">
+											<span class="item-product__price-currency">$</span>
+											<span class="item-product__total-price-value">834</span>
+										</div>
+									</div>
+								</div>
+								<div class="order-checkout__item item-product">
+									<div class="item-product__main-data">
+										<div class="item-product__image-ibg"><picture><source srcset="img/product-cards/product-card-image-06.webp" type="image/webp"><img src="img/product-cards/product-card-image-06.png" alt="Barberton Daisy"></picture></div>
+										<div class="item-product__info">
+											<h4 class="item-product__title product-cart-common-title">Aluminum Plant</h4>
+											<div class="item-product__serial"><span>SKU:</span> 1995751877786</div>
+										</div>
+									</div>
+									<div class="item-product__product-quanitiy">
+										<div class="item-product__total-quantity">(x <span class="item-product__quantity-value">9</span>)</div>
+									</div>
+									<div class="item-product__total-price-cart">
+										<div class="item-product__total-price">
+											<span class="item-product__price-currency">$</span>
+											<span class="item-product__total-price-value">1,611</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="order-checkout__order-payment">
+								<div class="order-checkout__cart-totals checkout-totals">
+									<div class="checkout-totals__body">
+										<div class="checkout-totals__shipping shipping">
+											<h3 class="shipping__title common-total-titles">Shipping</h3>
+											<div class="shipping__product-price"><span class="shipping__price-currency">$</span><span class="shipping__price-value">16</span></div>
+										</div>
+										<div class="checkout-totals__total-price total-price">
+											<h3 class="total-price__title">Total</h3>
+											<div class="total-price__product-price"><span class="total-price__price-currency">$</span><span class="total-price__price-value">2,683.00</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					<div class="popup__text">
+						<p>Your order is currently being processed. You will receive an order confirmation email shortly with the expected delivery date for your items.</p>
+					</div>
+					<button data-popup="#order" type="button" class="popup__button common-button">Track you order</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220609211654"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?_v=20220609211654"></script>
+	<script>
+		$(document).ready(function() {
+			var style = 'easeOutExpo';
+			var default_left = Math.round($('.menu ul li.active-link').offset().left - $('.menu ul').offset().left);
+			var default_top = $('.menu__container').height(); /* 18 - отступ от пункта меню */
+			var default_width = $('.menu ul li.active-link').outerWidth();
+			$('#border').css({
+				left: default_left,
+				bottom: default_top,
+				width: default_width
+			});
+			$('.menu ul li').hover(function() {
+				left = Math.round($(this).offset().left - $('.menu ul').offset().left);
+				width = $(this).width();
+				$('#border').stop(false, true).animate({
+					left: left,
+					width: width
+				}, {
+					duration: 1000,
+					easing: style
+				});
+			}).click(function() {
+				$('.menu ul li').removeClass('active-link');
+				$(this).addClass('active-link');
+			});
+			$('.menu ul').mouseleave(function() {
+				default_left = Math.round($('.menu ul li.active-link').offset().left - $('.menu ul').offset().left);
+				default_width = $('.menu ul li.active-link').outerWidth();
+				$('#border').stop(false, true).animate({
+					left: default_left,
+					width: default_width
+				}, {
+					duration: 1500,
+					easing: style
+				});
+			});
+		});
+		//==========ФУНКЦИЯ ПЛАВНОГО СКОЛЬЖЕНИЯ ПОЛЗУНКА=========================
+		jQuery.extend(jQuery.easing, {
+			easeOutExpo: function(x, t, b, c, d) {
+				return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+			},
+		});
+		//==========ФУНКЦИЯ ПЛАВНОГО СКОЛЬЖЕНИЯ ПОЛЗУНКА=========================
+	</script>
+	<script>
+		$(document).ready(function() {
+			var style = 'easeOutExpo';
+			var default_left = 0; // Math.round($('.group-filter__item._active-group-fiter-item').offset().left - $('.group-filter').offset().left);
+			var default_top = $('.header-catalog').height() - 2; /* 18 - отступ от пункта меню */
+			var default_width = $('.group-filter__item._active-group-fiter-item').outerWidth();
+			$('#borderTwo').css({
+				left: default_left,
+				bottom: default_top,
+				width: default_width
+			});
+			$('.group-filter__item').hover(function() {
+				left = Math.round($(this).offset().left - $('.group-filter').offset().left);
+				width = $(this).width();
+				$('#borderTwo').stop(false, true).animate({
+					left: left,
+					width: width
+				}, {
+					duration: 1000,
+					easing: style
+				});
+			}).click(function() {
+				$('.group-filter__item').removeClass('_active-group-fiter-item');
+				$(this).addClass('_active-group-fiter-item');
+			});
+			$('.group-filter').mouseleave(function() {
+				default_left = Math.round($('.group-filter__item._active-group-fiter-item').offset().left - $('.group-filter').offset().left);
+				default_width = $('.group-filter__item._active-group-fiter-item').outerWidth();
+				$('#borderTwo').stop(false, true).animate({
+					left: default_left,
+					width: default_width
+				}, {
+					duration: 1500,
+					easing: style
+				});
+			});
+		});
+		//==========ФУНКЦИЯ ПЛАВНОГО СКОЛЬЖЕНИЯ ПОЛЗУНКА=========================
+		jQuery.extend(jQuery.easing, {
+			easeOutExpo: function(x, t, b, c, d) {
+				return (t == d) ? b + c : c * (-Math.pow(2, -10 * t / d) + 1) + b;
+			},
+		});
+		//==========ФУНКЦИЯ ПЛАВНОГО СКОЛЬЖЕНИЯ ПОЛЗУНКА=========================
+	</script>
+
+</body>
+
+</html>
