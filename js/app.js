@@ -5389,7 +5389,6 @@
             spaceBetween: 26,
             autoHeight: true,
             speed: 2e3,
-            loop: true,
             autoplay: {
                 delay: 5e3
             },
@@ -5432,7 +5431,6 @@
             spaceBetween: 26,
             autoHeight: true,
             speed: 2e3,
-            loop: true,
             autoplay: {
                 delay: 5e3
             },
