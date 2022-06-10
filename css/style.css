@@ -6643,12 +6643,14 @@ body::after {
             box-shadow: 0px 0px 3.125rem rgba(70, 163, 88, 0.088);
   }
 
+  .search-header:before {
+    width: calc(100% - 1.25rem);
+  }
+}
+
+@media (hover: none) {
   .product-card__actions {
     opacity: 1;
     visibility: visible;
-  }
-
-  .search-header:before {
-    width: calc(100% - 1.25rem);
   }
 }
