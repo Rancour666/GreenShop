@@ -4516,6 +4516,7 @@ body::after {
 }
 
 .product-gallery__thumbs-slide {
+  cursor: pointer;
   min-width: 100%;
   border: 0.0625rem solid transparent;
   overflow: hidden;
