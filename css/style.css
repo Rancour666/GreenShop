@@ -2903,6 +2903,10 @@ body::after {
   }
 }
 
+.menu-open .menu__list {
+  color: #fff;
+}
+
 .menu__link {
   white-space: nowrap;
   padding: 0.5rem 0rem;
@@ -3062,6 +3066,15 @@ body::after {
   width: 1.125rem;
   height: 1.0625rem;
   font-size: 1.0625rem;
+}
+
+.menu-open .login-button {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  border: 0.125rem solid #46a358;
+  background-color: #fff;
+  color: #46a358;
 }
 
 .icon-menu {
@@ -5901,11 +5914,11 @@ body::after {
 
   .menu__body {
     position: fixed;
-    padding-top: 9.375rem;
+    padding-top: 6.25rem;
     padding-bottom: 3.125rem;
-    width: 100%;
-    height: 100%;
-    top: 0;
+    width: 95%;
+    height: calc(98% - 5.625rem);
+    top: 5.625rem;
     right: -100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5925,7 +5938,11 @@ body::after {
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    background-color: rgba(196, 232, 193, 0.98);
+    background: -o-linear-gradient(312.95deg, rgba(70, 163, 88, 0.85) -24.6%, #46A358 100%);
+    background: linear-gradient(137.05deg, rgba(70, 163, 88, 0.85) -24.6%, #46A358 100%);
+    -webkit-box-shadow: 0px 0rem 1.25rem 0 rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 0rem 1.25rem 0 rgba(0, 0, 0, 0.8);
+    border-radius: 1.125rem;
   }
 
   .menu__body::before {
@@ -5943,7 +5960,7 @@ body::after {
   }
 
   .menu-open .menu__body {
-    right: 0%;
+    right: 2.5%;
   }
 
   .menu-open .menu__body:before {
