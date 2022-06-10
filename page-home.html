@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220610144200">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220610151535">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -998,8 +998,26 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220610144200"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?_v=20220610144200"></script>
+
+
+	<div class="coupon-popup">
+		<div id="coupon" aria-hidden="true" class="coupon-popup__popup popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close _icon-close"></button>
+					<div class="totals__coupon coupon">
+						<h3 class="coupon__title common-total-titles">Coupon Apply</h3>
+						<form data-dev class="coupon__form" action="#" method="GET">
+							<input type="text" name="form[coupon]" data-required data-error="Error - Wrong Coupon Code!" placeholder="Enter coupon code here..." class="coupon__input">
+							<button type="submit" class="coupon__button">Apply</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220610151535"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?_v=20220610151535"></script>
 	<script>
 		$(document).ready(function() {
 			var style = 'easeOutExpo';
