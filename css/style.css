@@ -4068,6 +4068,15 @@ body::after {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 2.8125rem;
           flex: 0 0 2.8125rem;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.filter-menu-open .header-catalog .filter-menu {
+  -webkit-transform: rotate(270deg) scale(1.1);
+      -ms-transform: rotate(270deg) scale(1.1);
+          transform: rotate(270deg) scale(1.1);
 }
 
 .group-filter {
