@@ -2759,6 +2759,10 @@ body::after {
   font-size: 1.25rem;
 }
 
+.product-card__search {
+  cursor: pointer !important;
+}
+
 .product-card__discount-label {
   display: block;
   position: absolute;
@@ -4474,6 +4478,8 @@ body::after {
 }
 
 .product-gallery__wrapper {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
   background-color: #fbfbfb;
   border-radius: 0.375rem;
   position: relative;
