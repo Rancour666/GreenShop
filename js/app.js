@@ -5934,7 +5934,7 @@
                 },
                 autoplay: {
                     delay: 5e3,
-                    disableOnInteraction: true
+                    disableOnInteraction: false
                 },
                 pagination: {
                     el: ".body-main__swiper-pagination",

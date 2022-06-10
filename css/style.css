@@ -6723,6 +6723,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
+@media (min-width: 47.99875em) and (any-hover: hover) {
+  .menu__link:hover {
+    color: #46a358;
+  }
+}
+
 @media (min-width: 47.99875em) {
   .swiper-slide__image-ibg_contain {
     margin: 1.5625rem 0;
@@ -7563,10 +7569,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
   .product-card__title:hover {
     text-decoration: underline;
-  }
-
-  .menu__link:hover {
-    color: #46a358;
   }
 
   .actions-header__cart:hover {
