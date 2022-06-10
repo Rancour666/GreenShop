@@ -5757,6 +5757,11 @@ body::after {
 }
 
 @media (max-width: 61.99875em) {
+  .product-card__actions {
+    opacity: 1;
+    visibility: visible;
+  }
+
   .header__container {
     -ms-grid-columns: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
@@ -6645,12 +6650,5 @@ body::after {
 
   .search-header:before {
     width: calc(100% - 1.25rem);
-  }
-}
-
-@media (hover: none) {
-  .product-card__actions {
-    opacity: 1;
-    visibility: visible;
   }
 }
